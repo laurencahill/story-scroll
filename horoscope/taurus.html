@@ -23,7 +23,7 @@
       font-family: "Futura", sans-serif;
       color: #fff;
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-      background-size: 400% 400%;
+      background-size: 100% 100%;
       animation: gradientBG 15s ease infinite;
     }
 
@@ -89,6 +89,22 @@
    
     }
 
+    .match-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin: 25px;
+      font-family: 'Futura';
+    }
+
+    .match {
+      border: 1px solid #efefef;
+      border-radius: 100px;
+      padding: 20px;
+      width: 200px;
+    }
+
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -119,18 +135,18 @@
   <div class="swiper-container swiper-container-h">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div><img src="../dist/images/taurus.png" width="300px" /></div>
+        <div><img src="../dist/images/taurus.png" width="200px" /></div>
         <h2>TAURUS</h2>
         <span id="spanDate"></span>
-        <br><br>
+        <br>
         <div class="sign-details">
-            Practical and well-grounded, Taurus is the sign that harvests the fruits of labor. You feel the need to always be surrounded by love and beauty, turned to the material world, hedonism, and physical pleasures.<br><br>
+            Practical and well-grounded, Taurus is the sign that harvests the fruits of labor.<br><br>
             Taurus is an Earth sign, just like Virgo and Capricorn, and has the ability to see things from a grounded, practical and realistic perspective.<br><br>
             The ruler of Taurus is Venus, the planet of love, attraction, beauty, satisfaction, creativity and gratitude.
         </div>
-        <br><br>
-        <div class="sign-details">
-            SWIPE FOR TODAY'S HOROSCOPE >
+        <br>
+        <div class="swipe-details">
+            SWIPE FOR TODAY'S HOROSCOPE
         </div>
 
       </div>
@@ -138,38 +154,35 @@
       
       <div class="swiper-slide">
           
-          <div><img src="../dist/images/1.png" height="150px" /></div>
+          <div><img src="../dist/images/1.png" height="100px" /></div>
           <h2>TAURUS</h2>
-          <br><br>
+          <br>
           <div class="daily-details">
-              <h1>You will get many things accomplished today. <br><br>The energy is a very high intensity...</h1>
+              <h4>You will get many things accomplished today. <br><br>The energy is a very high intensity...</h4>
           </div>
         </div>
 
       <div class="swiper-slide">
-          <div ><img src="../dist/images/2.png" height="150px" /></div>
+          <div ><img src="../dist/images/2.png" height="100px" /></div>
           <h2>TAURUS</h2>
-          <br><br>
+          <br>
           <div class="daily-details">
-              <h1>But be careful about manipulating others.<br><br>No one appreciates being ordered about, so be tactful.</h1>
+              <h4>But be careful about manipulating others.<br><br>No one appreciates being ordered about, so be tactful.</h4>
           </div>
       </div>
 
-      <div class="swiper-slide"><div ><img src="../dist/images/3.png" height="150px" /></div>
+      <div class="swiper-slide"><div ><img src="../dist/images/3.png" height="100px" /></div>
       <h2>TAURUS</h2>
       <br><br>
       <div class="daily-details">
-          <h1>And try not to put on a show of superior knowledge.<br><br>People will resent you for it even if your intentions are good (and you're right).</h1>
+          <h4>And try not to put on a show of superior knowledge.<br><br>People will resent you for it even if your intentions are good (and you're right).</h4>
       </div></div>
 
-      <div class="swiper-slide"> <div><img src="https://www.horoscope.com/images-US/tarot/deck-lumina/the-chariot.jpg" width="200px" /></div>
+      <div class="swiper-slide"> <div><img src="https://www.horoscope.com/images-US/tarot/deck-lumina/the-chariot.jpg" width="150px" /></div>
       <h2>CARD OF THE DAY</h2>
       <h4>The Chariot</h4>
-      <br>
       <div class="sign-details">
-          Are you ready to move forward? If the Chariot shows up in your reading, it's no time to start slacking. Congratulate yourself for your hard work, but also continue riding the wave of victory to the finish line.<br><br>
-          Take a close look at the card. The three horses come at us with steadfast persistence and bravery; together they are a force. They mirror the three moon phases that float above them, symbolic of keeping strong full cycle—from start to finish.<br><br>
-          Glistening above it all, the glyph of Cancer shines. It suggests that if you can balance conflicting emotions with life's daily obstacles, there's no limit to what you can achieve.
+          Are you ready to move forward? If the Chariot shows up in your reading, it's no time to start slacking. Congratulate yourself for your hard work, but also continue riding the wave of victory to the finish line.
       </div>
      
       </div>
@@ -178,30 +191,30 @@
           
           <h2>MATCHES OF THE DAY</h2>
           <br>
-          <div class="match-details">
+          <div class="match">
           <h4>LOVE</h4>
-          <img src="../dist/images/capricorn.png" width="200px"/>
-          <div class="sign-details">
+          <img src="../dist/images/capricorn.png" width="100px"/>
+          <div class="match-details">
              Capricorn
           </div>
           </div>
 
           <br><br>
 
-          <div class="match-details">
+          <div class="match">
           <h4>FRIENDSHIP</h4>
-          <img src="../dist/images/cancer.png" width="200px"/>
-          <div class="sign-details">
+          <img src="../dist/images/cancer.png" width="100px"/>
+          <div class="match-details">
              Cancer
           </div>
           </div>
 
           <br><br>
 
-          <div class="match-details">
+          <div class="match">
           <h4>CAREER</h4>
-          <img src="../dist/images/libra.png" width="200px"/>
-          <div class="sign-details">
+          <img src="../dist/images/libra.png" width="100px"/>
+          <div class="match-details">
              Libra
           </div>
         </div>
