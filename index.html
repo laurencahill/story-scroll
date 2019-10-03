@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Horoscope</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="../dist/css/swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      font-family: "Futura", sans-serif;
+      color: #fff;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .container {
+      width: 100%;
+      position: absolute;
+      top: 35%;
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 300;
+    }
+
+    h3 {
+      color: #eee;
+      font-weight: 100;
+    }
+
+    h5 {
+      color:#eee;
+      font-weight:300;
+    }
+
+    a,
+    a:hover {
+      text-decoration: none;
+      color: #ddd;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .sign-details {
+      text-align: left;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      margin: 25px;
+      font-family: 'Futura';
+      line-height: 25px;
+    }
+
+    .daily-details {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      margin: 25px;
+      font-family: 'Futura';
+   
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container swiper-container-h">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div><img src="../dist/images/taurus.png" width="300px" /></div>
+        <h2>TAURUS</h2>
+        <span id="spanDate"></span>
+        <br><br>
+        <div class="sign-details">
+            Practical and well-grounded, Taurus is the sign that harvests the fruits of labor. You feel the need to always be surrounded by love and beauty, turned to the material world, hedonism, and physical pleasures.<br><br>
+            Taurus is an Earth sign, just like Virgo and Capricorn, and has the ability to see things from a grounded, practical and realistic perspective.<br><br>
+            The ruler of Taurus is Venus, the planet of love, attraction, beauty, satisfaction, creativity and gratitude.
+        </div>
+        <br><br>
+        <div class="sign-details">
+            SWIPE FOR TODAY'S HOROSCOPE >
+        </div>
+
+      </div>
+      
+      
+      <div class="swiper-slide">
+          
+          <div><img src="../dist/images/1.png" height="150px" /></div>
+          <h2>TAURUS</h2>
+          <br><br>
+          <div class="daily-details">
+              <h1>You will get many things accomplished today. <br><br>The energy is a very high intensity...</h1>
+          </div>
+        </div>
+
+      <div class="swiper-slide">
+          <div ><img src="../dist/images/2.png" height="150px" /></div>
+          <h2>TAURUS</h2>
+          <br><br>
+          <div class="daily-details">
+              <h1>But be careful about manipulating others.<br><br>No one appreciates being ordered about, so be tactful.</h1>
+          </div>
+      </div>
+
+      <div class="swiper-slide"><div ><img src="../dist/images/3.png" height="150px" /></div>
+      <h2>TAURUS</h2>
+      <br><br>
+      <div class="daily-details">
+          <h1>And try not to put on a show of superior knowledge.<br><br>People will resent you for it even if your intentions are good (and you're right).</h1>
+      </div></div>
+
+      <div class="swiper-slide"> <div><img src="https://www.horoscope.com/images-US/tarot/deck-lumina/the-chariot.jpg" width="200px" /></div>
+      <h2>CARD OF THE DAY</h2>
+      <h4>The Chariot</h4>
+      <br>
+      <div class="sign-details">
+          Are you ready to move forward? If the Chariot shows up in your reading, it's no time to start slacking. Congratulate yourself for your hard work, but also continue riding the wave of victory to the finish line.<br><br>
+          Take a close look at the card. The three horses come at us with steadfast persistence and bravery; together they are a force. They mirror the three moon phases that float above them, symbolic of keeping strong full cycle—from start to finish.<br><br>
+          Glistening above it all, the glyph of Cancer shines. It suggests that if you can balance conflicting emotions with life's daily obstacles, there's no limit to what you can achieve.
+      </div>
+     
+      </div>
+
+      <div class="swiper-slide">
+          
+          <h2>MATCHES OF THE DAY</h2>
+          <br>
+          <div class="match-details">
+          <h4>LOVE</h4>
+          <img src="../dist/images/capricorn.png" width="200px"/>
+          <div class="sign-details">
+             Capricorn
+          </div>
+          </div>
+
+          <br><br>
+
+          <div class="match-details">
+          <h4>FRIENDSHIP</h4>
+          <img src="../dist/images/cancer.png" width="200px"/>
+          <div class="sign-details">
+             Cancer
+          </div>
+          </div>
+
+          <br><br>
+
+          <div class="match-details">
+          <h4>CAREER</h4>
+          <img src="../dist/images/libra.png" width="200px"/>
+          <div class="sign-details">
+             Libra
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="swiper-slide">Horizontal Slide 7</div>
+
+      <div class="swiper-slide">Horizontal Slide 8</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-h"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="../dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiperH = new Swiper('.swiper-container-h', {
+      spaceBetween: 50,
+      pagination: {
+        el: '.swiper-pagination-h',
+        clickable: true,
+      },
+    });
+    var swiperV = new Swiper('.swiper-container-v', {
+      direction: 'vertical',
+      spaceBetween: 50,
+      pagination: {
+        el: '.swiper-pagination-v',
+        clickable: true,
+      },
+    });
+      var months = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY',
+      'AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];       
+      var today = new Date();
+      today.setTime(today.getTime());       
+      document.getElementById("spanDate").innerHTML = months[today.getMonth()] + " " + today.getDate()+ ", " + today.getFullYear();
+        
+  </script>
+</body>
+</html>
