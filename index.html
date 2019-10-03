@@ -89,6 +89,31 @@
    
     }
 
+    .match-details {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+      font-family: 'Futura';
+   
+    }
+
+    .zodiac-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .match {
+
+      width: 100px;
+      padding: 25px;
+    }
+
+    .swipe {
+      border: 1px #efefef solid;
+      padding: 10px;
+    }
+
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -118,102 +143,129 @@
   <!-- Swiper -->
   <div class="swiper-container swiper-container-h">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div><img src="../dist/images/taurus.png" width="300px" /></div>
-        <h2>TAURUS</h2>
-        <span id="spanDate"></span>
-        <br><br>
-        <div class="sign-details">
-            Practical and well-grounded, Taurus is the sign that harvests the fruits of labor. You feel the need to always be surrounded by love and beauty, turned to the material world, hedonism, and physical pleasures.<br><br>
-            Taurus is an Earth sign, just like Virgo and Capricorn, and has the ability to see things from a grounded, practical and realistic perspective.<br><br>
-            The ruler of Taurus is Venus, the planet of love, attraction, beauty, satisfaction, creativity and gratitude.
-        </div>
-        <br><br>
-        <div class="sign-details">
-            SWIPE FOR TODAY'S HOROSCOPE >
-        </div>
 
-      </div>
       
-      
-      <div class="swiper-slide">
-          
-          <div><img src="../dist/images/1.png" height="150px" /></div>
-          <h2>TAURUS</h2>
-          <br><br>
-          <div class="daily-details">
-              <h1>You will get many things accomplished today. <br><br>The energy is a very high intensity...</h1>
-          </div>
-        </div>
-
-      <div class="swiper-slide">
-          <div ><img src="../dist/images/2.png" height="150px" /></div>
-          <h2>TAURUS</h2>
-          <br><br>
-          <div class="daily-details">
-              <h1>But be careful about manipulating others.<br><br>No one appreciates being ordered about, so be tactful.</h1>
-          </div>
-      </div>
-
-      <div class="swiper-slide"><div ><img src="../dist/images/3.png" height="150px" /></div>
-      <h2>TAURUS</h2>
-      <br><br>
-      <div class="daily-details">
-          <h1>And try not to put on a show of superior knowledge.<br><br>People will resent you for it even if your intentions are good (and you're right).</h1>
-      </div></div>
-
-      <div class="swiper-slide"> <div><img src="https://www.horoscope.com/images-US/tarot/deck-lumina/the-chariot.jpg" width="200px" /></div>
-      <h2>CARD OF THE DAY</h2>
-      <h4>The Chariot</h4>
-      <br>
-      <div class="sign-details">
-          Are you ready to move forward? If the Chariot shows up in your reading, it's no time to start slacking. Congratulate yourself for your hard work, but also continue riding the wave of victory to the finish line.<br><br>
-          Take a close look at the card. The three horses come at us with steadfast persistence and bravery; together they are a force. They mirror the three moon phases that float above them, symbolic of keeping strong full cycle—from start to finish.<br><br>
-          Glistening above it all, the glyph of Cancer shines. It suggests that if you can balance conflicting emotions with life's daily obstacles, there's no limit to what you can achieve.
-      </div>
-     
-      </div>
 
       <div class="swiper-slide">
           
-          <h2>MATCHES OF THE DAY</h2>
-          <br>
+          <div class="zodica-column">
+          
+          <div class="zodiac-row">
+            <div class="match">
+              <a href="../horoscope/capricorn.html">
+          <img src="../dist/images/capricorn.png" width="80px"/>
+              </a>
           <div class="match-details">
-          <h4>LOVE</h4>
-          <img src="../dist/images/capricorn.png" width="200px"/>
-          <div class="sign-details">
              Capricorn
           </div>
-          </div>
-
-          <br><br>
-
-          <div class="match-details">
-          <h4>FRIENDSHIP</h4>
-          <img src="../dist/images/cancer.png" width="200px"/>
-          <div class="sign-details">
-             Cancer
-          </div>
-          </div>
-
-          <br><br>
-
-          <div class="match-details">
-          <h4>CAREER</h4>
-          <img src="../dist/images/libra.png" width="200px"/>
-          <div class="sign-details">
-             Libra
-          </div>
         </div>
+
+          <div class="match">
+                <a href="../horoscope/aquarius.html">
+            <img src="../dist/images/aquarius.png" width="80px"/></a>
+            <div class="match-details">
+               Aquarius
+            </div>
+            </div>
+
+            <div class="match">
+                    <a href="../horoscope/pisces.html">
+              <img src="../dist/images/pisces.png" width="80px"/></a>
+              <div class="match-details">
+                 Pisces
+              </div>
+              </div>
+          </div>
+
+          <div class="zodiac-row">
+                <div class="match">
+                  <a href="../horoscope/aries.html">
+              <img src="../dist/images/aries.png" width="80px"/>
+                  </a>
+              <div class="match-details">
+                 Aries
+              </div>
+            </div>
+    
+              <div class="match">
+                    <a href="../horoscope/taurus.html">
+                <img src="../dist/images/taurus.png" width="80px"/></a>
+                <div class="match-details">
+                   Taurus
+                </div>
+                </div>
+    
+                <div class="match">
+                        <a href="../horoscope/gemini.html">
+                  <img src="../dist/images/gemini.png" width="80px"/></a>
+                  <div class="match-details">
+                     Gemini
+                  </div>
+                  </div>
+              </div>
+              <div class="zodiac-row">
+                    <div class="match">
+                      <a href="../horoscope/cancer.html">
+                  <img src="../dist/images/cancer.png" width="80px"/></a>
+                      </a>
+                  <div class="match-details">
+                     Cancer
+                  </div>
+                </div>
         
+                  <div class="match">
+                        <a href="../horoscope/leo.html">
+                    <img src="../dist/images/leo.png" width="80px"/></a>
+                    <div class="match-details">
+                       Leo
+                    </div>
+                    </div>
+        
+                    <div class="match">
+                            <a href="../horoscope/virgo.html">
+                      <img src="../dist/images/virgo.png" width="80px"/></a>
+                      <div class="match-details">
+                         Virgo
+                      </div>
+                      </div>
+                  </div>
+                  <div class="zodiac-row">
+                        <div class="match">
+                          <a href="../horoscope/libra.html">
+                      <img src="../dist/images/libra.png" width="80px"/></a>
+                          </a>
+                      <div class="match-details">
+                         Libra
+                      </div>
+                    </div>
+            
+                      <div class="match">
+                            <a href="../horoscope/scorpio.html">
+                        <img src="../dist/images/scorpio.png" width="80px"/></a>
+                        <div class="match-details">
+                           Scorpio
+                        </div>
+                        </div>
+            
+                        <div class="match">
+                                <a href="../horoscope/sagittarius.html">
+                          <img src="../dist/images/sagittarius.png" width="80px"/></a>
+                          <div class="match-details">
+                             Sagittarius
+                          </div>
+                          </div>
+                      </div>
+        
+        </div>
+
       </div>
 
-      <div class="swiper-slide">Horizontal Slide 7</div>
 
-      <div class="swiper-slide">Horizontal Slide 8</div>
+
+
     </div>
     <!-- Add Pagination -->
-    <div class="swiper-pagination swiper-pagination-h"></div>
+
   </div>
 
   <!-- Swiper JS -->
